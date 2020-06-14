@@ -1,10 +1,10 @@
 {
-  "compilerOptions": {
-    "lib": ["ES7"],
-    "target": "ES2017",
-    "module": "CommonJS",
-    "moduleResolution": "Node",
-    "strict": true
-  },
-  "files": ["index.ts", "lib/plugin.ts"]
+    "compilerOptions": {
+        "lib": ["ES7"],
+        "target": "ES2017",
+        "module": "CommonJS",
+        "moduleResolution": "Node",
+        "strict": true
+    },
+    "files": ["index.ts", "lib/plugin.ts"]
 }

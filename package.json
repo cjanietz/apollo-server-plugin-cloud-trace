@@ -9,7 +9,8 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc --skipLibCheck",
-    "prepack": "yarn run build"
+    "prepack": "yarn run build",
+    "lint:prettier": "prettier --write ./**/*.{js,ts,json,md} --ignore-path ./.prettierignore"
   },
   "dependencies": {
     "apollo-server-plugin-base": "^0.9.0",
