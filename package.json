@@ -1,0 +1,25 @@
+{
+  "name": "apollo-server-plugin-cloud-trace",
+  "version": "0.0.1",
+  "description": "Plugin to integrate Google Cloud Trace with Apollo Server",
+  "repository": {
+    "url": "https://github.com/cjanietz/apollo-server-plugin-cloud-trace"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc --skipLibCheck"
+  },
+  "dependencies": {
+    "apollo-server-plugin-base": "^0.9.0",
+    "lodash.isobjectlike": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/lodash.isobjectlike": "^4.0.6",
+    "@google-cloud/trace-agent": "^5.0.0",
+    "apollo-server": "^2.14.3",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.5",
+    "graphql": "^15.1.0"
+  }
+}

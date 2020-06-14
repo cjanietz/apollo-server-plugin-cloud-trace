@@ -1,0 +1,21 @@
+{
+  "name": "simple-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev index.ts"
+  },
+  "dependencies": {
+    "@google-cloud/trace-agent": "^5.0.0",
+    "apollo-server": "^2.14.3",
+    "graphql-tag": "^2.10.3",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "ts-node": "^8.10.2",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.9.5",
+    "@types/dotenv": "^8.2.0"
+  }
+}
