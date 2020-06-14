@@ -8,7 +8,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "tsc --skipLibCheck"
+    "build": "tsc --skipLibCheck",
+    "prepack": "yarn run build"
   },
   "dependencies": {
     "apollo-server-plugin-base": "^0.9.0",
