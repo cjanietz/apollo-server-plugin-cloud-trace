@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@google-cloud/trace-agent": "^5.0.0",
-    "apollo-server": "^2.14.3",
+    "apollo-server": "^2.25.4",
     "graphql-tag": "^2.10.3",
     "dotenv": "^8.2.0"
   },
